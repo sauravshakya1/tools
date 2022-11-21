@@ -23,31 +23,31 @@ ENV VIRTUAL_ENV=/opt/python/venv
 RUN python3.8 -m venv $VIRTUAL_ENV
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
-RUN pip install          \
-        pip              \
-        wheel            \
-        plotly           \
-        pandas           \
-        matplot          \
-        seaborn          \
-        numba            \
-        numpy            \
-        scipy            \
-        scikit-learn     \
-        tqdm             \
-        urllib3          \
-        requests         \
-        beautifulsoup4   \
-        wordcloud        \
-        statsmodels      \
-        django           \
-        flask            \
-        prophet          \
-        dvc              \
-        mlflow           \
-        alibi            \
-        alibi-detect     \
-        boto3
+# RUN pip install          \
+#         pip              \
+#         wheel            \
+#         plotly           \
+#         pandas           \
+#         matplot          \
+#         seaborn          \
+#         numba            \
+#         numpy            \
+#         scipy            \
+#         scikit-learn     \
+#         tqdm             \
+#         urllib3          \
+#         requests         \
+#         beautifulsoup4   \
+#         wordcloud        \
+#         statsmodels      \
+#         django           \
+#         flask            \
+#         prophet          \
+#         dvc              \
+#         mlflow           \
+#         alibi            \
+#         alibi-detect     \
+#         boto3
 
 USER root
 
